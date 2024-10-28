@@ -19,7 +19,7 @@ namespace Infastructure.Repository
 		}
 		public IEnumerable<Movie> GetTopPurchasedMovies()
 		{
-			return _context.Movies.OrderByDescending(x => x.Purchases).Include(x=>x.Purchases).ToList();
+			return _context.Movies.Include(x => x.Purchases).ToList();
 		}
-    }
+	}
 }

@@ -46,5 +46,10 @@ namespace Infastructure.Services
 			}
 			return 0;
 		}
+		public IEnumerable<Movie> GetTopMovies()
+		{
+			var result = _repo.GetTopPurchasedMovies();
+			return result;
+		}
 	}
 }

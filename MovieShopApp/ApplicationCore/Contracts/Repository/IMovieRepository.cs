@@ -9,5 +9,6 @@ namespace ApplicationCore.Contracts.Repository
 {
 	public interface IMovieRepository : IRepository<Movie>
 	{
+		IEnumerable<Movie> GetTopPurchasedMovies();
 	}
 }

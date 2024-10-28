@@ -14,5 +14,6 @@ namespace ApplicationCore.Contracts.Services
 		int DeleteMovie(int id);
 		IEnumerable<Movie> GetAllMovies();
 		Movie GetMovieById(int id);
+		IEnumerable<Movie> GetTopMovies();
 	}
 }

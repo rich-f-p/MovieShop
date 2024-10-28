@@ -17,6 +17,11 @@ namespace MovieShop.WebMVC.Controllers
 			var result = _movieService.GetAllMovies();
 			return View(result);
 		}
+		public IActionResult TopMovies()
+		{
+			var result = _movieService.GetTopMovies();
+			return View(result);
+		}
 		[HttpGet]
 		public IActionResult Create()
 		{

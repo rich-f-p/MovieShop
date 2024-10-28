@@ -21,7 +21,7 @@ namespace MovieShop.WebMVC.Controllers
 			var result = _movieService.GetAllMovies();
 			return View(result);
 		}
-
+		
 		public IActionResult Privacy()
 		{
 			return View();
