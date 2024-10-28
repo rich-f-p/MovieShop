@@ -1,6 +1,6 @@
-﻿@model string
+﻿@model Movie
 @{
 }
 <div class="card m-3" style="width: 18rem">
-    <img src="@Model" class="card-img-top" alt="...">
+    <a asp-action="Details" asp-controller="Movies" asp-route-id="@Model.Id"><img src="@Model.PosterUrl" class="card-img-top" alt="..."></a>
 </div>
