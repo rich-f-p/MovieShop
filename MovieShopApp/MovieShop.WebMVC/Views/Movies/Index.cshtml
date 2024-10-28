@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Movie>;
+@{
+	ViewData["Title"] = "List of Movies";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach(var item in Model)
+        {
+            <partial name="_MovieCardModel", model="@item.PosterUrl" />
+        }
+    </div>
+</div>

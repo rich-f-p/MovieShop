@@ -1,0 +1,16 @@
+﻿@model Movie;
+
+@{
+	ViewData["Title"] = "Add New Movie";
+}
+<h1>@ViewData["Title"]</h1>
+<form asp-action="create" method="post" asp-controller="Movie">
+	<div class="container">
+		<div class="my-3">
+			<label for="BackdropUrl">BackdropUrl</label>
+			<input type="text" asp-for="BackdropUrl" class="form-control" />
+			<span asp-validation-for="BackdropUrl" class="text-danger"></span>
+		</div>
+		<button class="btn btn-submit">Create</button>
+	</div>
+</form>
