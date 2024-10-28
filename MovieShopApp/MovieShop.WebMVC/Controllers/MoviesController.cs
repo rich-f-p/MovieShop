@@ -22,5 +22,11 @@ namespace MovieShop.WebMVC.Controllers
 		{
 			return View();
 		}
+		[HttpGet]
+		public IActionResult Details(int id)
+		{
+			var result = _movieService.GetMovieById(id);
+			return View(result);
+		}
 	}
 }

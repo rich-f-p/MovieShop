@@ -19,5 +19,8 @@ namespace ApplicationCore.Entities
 		public string Character {  get; set; }
 		[Required]
 		public int MovieId { get; set; }
+
+		public ICollection<Movie> Movies { get; set; }
+		public ICollection<Cast> Casts { get; set; }
 	}
 }

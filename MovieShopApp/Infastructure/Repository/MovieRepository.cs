@@ -12,8 +12,14 @@ namespace Infastructure.Repository
 {
 	public class MovieRepository : BaseRepository<Movie>, IMovieRepository
 	{
+		private readonly MovieShopDbContext _context;
 		public MovieRepository(MovieShopDbContext c) : base(c)
 		{
+			_context = c;
+		}
+		public IEnumerable<Movie> GetTopPurchasedMovies()
+		{
+			return _context.Movies.OrderByDescending(x => x.Purchases).Include(x=>x.Purchases).ToList();
 		}
     }
 }

@@ -15,5 +15,7 @@ namespace ApplicationCore.Entities
 		[Required]
 		[Column(TypeName ="nvarchar(20)")]
 		public string Name { get; set; }
+		
+		public ICollection<UserRole> UserRoles { get; set; }
 	}
 }

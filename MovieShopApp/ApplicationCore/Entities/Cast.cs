@@ -24,5 +24,7 @@ namespace ApplicationCore.Entities
 		[Required]
 		[Column(TypeName = "nvarchar(MAX)")]
 		public string TmdbUrl { get; set; }
+
+		public ICollection<MovieCast> MovieCasts { get; set; }
 	}
 }

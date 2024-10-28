@@ -49,6 +49,12 @@ namespace ApplicationCore.Entities
 		[Column(TypeName = "datetime2")]
 		public DateTime? UpdatedDate { get; set; } = DateTime.Now;
 
+		public ICollection<Trailer> Trailers { get; set; }
+		public ICollection<Review> Reviews { get; set; }
+		public ICollection<Purchase> Purchases { get; set; }
+		public ICollection<MovieGenre> MovieGenres { get; set; }
+		public ICollection<MovieCast> movieCasts { get; set; }
+		public ICollection<Favorite> Favorites { get; set; }
 
 
 	}

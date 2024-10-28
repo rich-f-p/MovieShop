@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj": {}
+    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj": {
+    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
         "projectName": "Infastructure",
-        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
+        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\obj\\",
+        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj": {
+    "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj",
         "projectName": "MovieShop.WebMVC",
-        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj",
+        "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\MovieShop.WebMVC.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\obj\\",
+        "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\MovieShop.WebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,8 +199,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj": {
-                "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj"
+              "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj": {
+                "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj"
               }
             }
           }

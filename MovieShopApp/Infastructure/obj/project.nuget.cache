@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWHXbICwY3Y=",
+  "dgSpecHash": "JyZ1X/xaIS8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
+  "projectFilePath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\Infastructure\\Infastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\richa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\richa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

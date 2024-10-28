@@ -10,22 +10,22 @@ namespace ApplicationCore.Entities
 {
 	public class User
 	{
-		[Required]
 		public int Id { get; set; }
-		[Column(TypeName ="datetime2")]
+        [Required(ErrorMessage = "Birth Date Required")]
+        [Column(TypeName ="datetime2")]
 		public DateTime? DateOfBirth { get; set; }
-		[Required]
-		[Column(TypeName = "nvarchar(256)")]
+        [Required(ErrorMessage = "Email Required")]
+        [Column(TypeName = "nvarchar(256)")]
 		public string Email { get; set; }
-		[Required]
-		[Column(TypeName = "nvarchar(128)")]
+        [Required(ErrorMessage = "First Name Required")]
+        [Column(TypeName = "nvarchar(128)")]
 		public string FirstName { get; set; }
-		[Required]
-		[Column(TypeName = "nvarchar(1024)")]
+        [Required(ErrorMessage = "Password Required")]
+        [Column(TypeName = "nvarchar(1024)")]
 		public string HashedPassword { get; set; }
 		public int? IsLocked { get; set; }
-		[Required]
-		[Column(TypeName = "nvarchar(128)")]
+        [Required(ErrorMessage = "Last Name Required")]
+        [Column(TypeName = "nvarchar(128)")]
 		public string LastName { get; set; }
 		[Column(TypeName = "nvarchar(16)")]
 		public string? PhoneNumber { get; set; }
@@ -33,6 +33,11 @@ namespace ApplicationCore.Entities
 		public string? ProfilePictureUrl { get; set; }
 		[Required]
 		[Column(TypeName = "nvarchar(1024)")]
-		public string Salt { get; set; }
+		public string? Salt { get; set; }
+
+		public ICollection<Favorite> Favorites { get; set; }
+		public ICollection<Purchase> Purchases { get; set; }
+		public ICollection<Review> Reviews { get; set; }
+		public ICollection<UserRole> UserRoles { get; set; }
 	}
 }

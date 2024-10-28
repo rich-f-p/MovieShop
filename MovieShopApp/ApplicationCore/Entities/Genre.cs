@@ -15,5 +15,7 @@ namespace ApplicationCore.Entities
 		[Required]
 		[Column(TypeName = "nvarchar(24)")]
 		public string Name { get; set; }
+
+		public ICollection<MovieGenre> MovieGenres { get; set; }
 	}
 }

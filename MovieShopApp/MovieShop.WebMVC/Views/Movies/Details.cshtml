@@ -1,0 +1,77 @@
+﻿@model Movie
+@{
+}
+<div class="container mt-0 px-0">
+	<div class="row" style="width: 100%; background-image: url(@Model.BackdropUrl);">
+		<div class="col-5">
+			<img src="@Model.PosterUrl" class="img-fluid" alt="@Model.Title" />
+		</div>
+		<div class="col-5">
+			<h1 class="text-white">@Model.Title</h1>
+			<p class="text-light">@Model.Tagline</p>
+			<div>
+				@{
+					if(Model.MovieGenres !=null){
+						foreach(var genre in Model.MovieGenres)
+						{
+							<h6><span class="badge text-bg-secondary">@genre</span></h6>
+						}
+					}
+				}
+			</div>
+			<p class="text-light">@{@Model.RunTime} m| @Model.ReleaseDate.Value.ToString("yyyy")</p>
+			<p class="text-light">@Model.Overview</p>
+		</div>
+		<div class="col">
+			<div class="my-4">
+				<div class="my-4">
+					<button class="btn text-white border border-white rounded-pill">Review</button>
+				</div>
+				<div class="my-4">
+					<button class="btn text-white border border-white rounded-pill">Buy @Model.Price</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-5">
+			<h4>MOVIE FACTS</h4>
+			<div class="my-3 border-bottom">
+				<p>Release Date <span class="p-1 bg-dark border rounded-pill text-white">@Model.ReleaseDate.Value.ToString("MMM dd, yyyy")</span></p>
+			</div>
+			<div class="my-3 border-bottom">
+				<p>Run Time <span class="p-1 bg-dark border rounded-pill text-white">@Model.RunTime m</span></p>
+			</div>
+			<div class="my-3 border-bottom">
+				<p>Box Office<span class="p-1 bg-dark border rounded-pill text-white">$@Model.Budget</span></p>
+			</div>
+			<div class="my-3 border-bottom">
+				<a class="m-1" href="@Model.ImdbUrl" target="_blank">IMDB</a>
+				<a class="m-1" href="@Model.TmdbUrl" target="_blank">TMDB</a>
+			</div>
+			<h4>TRAILERS</h4>
+			<a href="@Model.Trailers" target="_blank">@Model.Title</a>
+		</div>
+		<div class="col-5">
+			<h4>Casts</h4>
+			<div class="d-flex justify-content-between">
+				<p>This is a Example</p>
+				<p>Example</p>
+			</div>
+		@{
+			if (Model.movieCasts != null)
+			{
+				foreach(var item in Model.movieCasts)
+				{
+					<div class="container">
+						<p>@item.Character</p>
+						<p>@item.CastId</p>
+					</div>
+				}
+			}
+		}
+		</div>
+	</div>
+
+</div>

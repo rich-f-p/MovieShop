@@ -4046,11 +4046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\test\\MovieShop\\MovieShopApp\\ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShopApp\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
