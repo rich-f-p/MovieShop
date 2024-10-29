@@ -37,7 +37,12 @@ namespace Infastructure.Services
             return _repo.GetById(id);
         }
 
-        public int UpdateCast(Cast cast, int id)
+		public Cast GetCastDetails(int id)
+		{
+			return _repo.GetById(id);
+		}
+
+		public int UpdateCast(Cast cast, int id)
         {
             if(cast.Id == id)
             {

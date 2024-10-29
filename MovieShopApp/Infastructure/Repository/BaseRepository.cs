@@ -26,7 +26,7 @@ namespace Infastructure.Repository
 			return 0;
 		}
 
-		public T GetById(int id)
+		public virtual T GetById(int id)
 		{
 			return _context.Set<T>().Find(id);
 		}

@@ -15,5 +15,10 @@ namespace MovieShop.WebMVC.Controllers
             var result = _castService.GetAllCast();
 			return View(result);
 		}
+        public IActionResult Details(int id)
+        {
+            var result = _castService.GetCastDetails(id);
+            return View(result);
+        }
 	}
 }

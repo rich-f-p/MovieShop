@@ -9,6 +9,7 @@ namespace ApplicationCore.Contracts.Repository
 {
 	public interface IMovieRepository : IRepository<Movie>
 	{
-		IEnumerable<Movie> GetTopPurchasedMovies();
+		IEnumerable<Movie> GetHighestGrossingMovies();
+		Movie GetMovieById(int id);
 	}
 }

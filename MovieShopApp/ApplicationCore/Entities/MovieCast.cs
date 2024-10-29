@@ -20,7 +20,7 @@ namespace ApplicationCore.Entities
 		[Required]
 		public int MovieId { get; set; }
 
-		public ICollection<Movie> Movies { get; set; }
-		public ICollection<Cast> Casts { get; set; }
+		public Movie Movies { get; set; }
+		public Cast Casts { get; set; }
 	}
 }

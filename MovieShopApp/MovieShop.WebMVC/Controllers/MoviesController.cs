@@ -17,9 +17,9 @@ namespace MovieShop.WebMVC.Controllers
 			var result = _movieService.GetAllMovies();
 			return View(result);
 		}
-		public IActionResult TopMovies()
+		public IActionResult HighGrossMovies()
 		{
-			var result = _movieService.GetTopMovies();
+			var result = _movieService.GetHighGrossingMovies();
 			return View(result);
 		}
 		[HttpGet]
@@ -30,7 +30,7 @@ namespace MovieShop.WebMVC.Controllers
 		[HttpGet]
 		public IActionResult Details(int id)
 		{
-			var result = _movieService.GetMovieById(id);
+			var result = _movieService.GetMovieDetails(id);
 			return View(result);
 		}
 	}

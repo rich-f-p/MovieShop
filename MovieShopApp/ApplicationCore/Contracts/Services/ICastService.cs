@@ -14,5 +14,6 @@ namespace ApplicationCore.Contracts.Services
         int DeleteCast(int id);
         IEnumerable<Cast> GetAllCast();
         Cast GetCastById(int id);
+        Cast GetCastDetails(int id);
     }
 }

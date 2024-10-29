@@ -19,7 +19,26 @@ namespace Infastructure.Repository
 		}
 		public IEnumerable<Movie> GetTopPurchasedMovies()
 		{
-			return _context.Movies.Include(x => x.Purchases).ToList();
+			var result = _context.Movies.Include(x => x.Purchases).ToList();
+			return result;
+		}
+		public IEnumerable<Movie> GetHighestGrossingMovies()
+		{
+			var result = _context.Movies.OrderByDescending(x=>x.Revenue).ToList();
+			return result;
+		}
+		public IEnumerable<Movie> GetMoviesWithGenre()
+		{
+			return _context.Movies.Include(x=>x.MovieGenres).ToList();
+		}
+		public Movie GetMovieById(int id)
+		{
+			var result = _context.Movies
+			.Include(m => m.MovieGenres).ThenInclude(mg => mg.Genre)
+			.Include(m => m.Trailers)
+			.Include(m => m.movieCasts).ThenInclude(mc=>mc.Casts)
+			.FirstOrDefault(m => m.Id == id);
+			return result;
 		}
 	}
 }

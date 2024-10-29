@@ -1,0 +1,30 @@
+﻿@model Cast
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>@Model.Name</h1>
+<div class="container">
+    <div class="my-3 d-flex justify-content-center">
+        <img src="@Model.ProfilePath"/>
+    </div>
+</div>
+<div class="container">
+    <div class="my-3">
+        <table>
+            <thead>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.MovieCasts)
+                {
+                    <tr class="my-3 border-bottom">
+                        <td><a asp-action="Details" asp-controller="Movies" asp-route-id="@item.Movies.Id"><img src="@item.Movies.PosterUrl" style="height:100px; width:90px" class="rounded" /></a></td>
+                        <td class="m-3">@item.Movies.Title</td>
+                        <td class="m-3">@item.Character</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

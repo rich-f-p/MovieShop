@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/richa/Desktop/SEP Full Stack/MovieShop/MovieShopApp/MovieShop.WebMVC/Views/Cast/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/richa/Desktop/SEP Full Stack/MovieShop/MovieShopApp/MovieShop.WebMVC/Views/Cast/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/richa/Desktop/SEP Full Stack/MovieShop/MovieShopApp/MovieShop.WebMVC/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/richa/Desktop/SEP Full Stack/MovieShop/MovieShopApp/MovieShop.WebMVC/Views/Movies/HighGrossMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEhpZ2hHcm9zc01vdmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/richa/Desktop/SEP Full Stack/MovieShop/MovieShopApp/MovieShop.WebMVC/Views/Movies/Index.cshtml]
