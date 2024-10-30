@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Infastructure.Repository
 {
-	public class PurchaseRepository : BaseRepository<Purchase>, IPurchaseRepository
+	public class UserRepositoryAsync : BaseRepositoryAsync<User>, IUserRepositoryAsync
 	{
-		public PurchaseRepository(MovieShopDbContext c) : base(c)
+		public UserRepositoryAsync(MovieShopDbContext c) : base(c)
 		{
 		}
 	}

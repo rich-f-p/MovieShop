@@ -292,3 +292,5 @@ C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\ob
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\obj\Debug\net8.0\MovieShop.WebMVC.pdb
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\obj\Debug\net8.0\MovieShop.WebMVC.genruntimeconfig.cache
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\obj\Debug\net8.0\ref\MovieShop.WebMVC.dll
+C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\PagedList.dll
+C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\PagedList.Mvc.dll

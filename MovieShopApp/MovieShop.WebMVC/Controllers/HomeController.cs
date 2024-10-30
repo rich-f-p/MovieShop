@@ -8,21 +8,21 @@ namespace MovieShop.WebMVC.Controllers
 	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
-        private readonly IMovieService _movieService;
+        private readonly IMovieServiceAsync _movieService;
 
-        public HomeController(ILogger<HomeController> logger, IMovieService movieService)
+        public HomeController(ILogger<HomeController> logger, IMovieServiceAsync movieService)
 		{
 			_movieService = movieService;
 			_logger = logger;
         }
 
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
-			var result = _movieService.GetAllMovies();
+			var result = await _movieService.GetAllMoviesAsync();
 			return View(result);
 		}
 		
-		public IActionResult Privacy()
+		public  IActionResult Privacy()
 		{
 			return View();
 		}

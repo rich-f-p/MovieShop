@@ -1,6 +1,6 @@
-﻿@model Movie
+﻿@model ApplicationCore.Models.MovieCardModel
 @{
 }
-<div class="card m-3" style="width: 18rem">
-    <a asp-action="Details" asp-controller="Movies" asp-route-id="@Model.Id"><img src="@Model.PosterUrl" class="card-img-top" alt="..."></a>
+<div class="card m-3 p-0" style="width: 11rem">
+    <a asp-action="Details" asp-controller="Movies" asp-route-id="@Model.Id"><img src="@Model.PosterUrl" class="card-img object-fit-cover border rounded" alt="..."></a>
 </div>

@@ -5,19 +5,19 @@ namespace MovieShop.WebMVC.Controllers
 {
 	public class CastController : Controller
 	{
-        private readonly ICastService _castService;
-        public CastController(ICastService castService)
+        private readonly ICastServiceAsync _castService;
+        public CastController(ICastServiceAsync castService)
         {
             _castService = castService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
 		{
-            var result = _castService.GetAllCast();
+            var result = await _castService.GetAllCastAsync();
 			return View(result);
 		}
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var result = _castService.GetCastDetails(id);
+            var result = await _castService.GetCastDetailsAsync(id);
             return View(result);
         }
 	}

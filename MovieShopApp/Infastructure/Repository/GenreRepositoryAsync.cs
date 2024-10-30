@@ -9,10 +9,12 @@ using System.Threading.Tasks;
 
 namespace Infastructure.Repository
 {
-	public class UserRepository : BaseRepository<User>, IUserRepository
-	{
-		public UserRepository(MovieShopDbContext c) : base(c)
-		{
-		}
-	}
+    public class GenreRepositoryAsync : BaseRepositoryAsync<Genre>, IGenreRepositoryAsync
+    {
+		private readonly MovieShopDbContext _context;
+		public GenreRepositoryAsync(MovieShopDbContext c) : base(c)
+        {
+            _context = c;
+        }
+    }
 }

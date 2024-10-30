@@ -1,36 +1,42 @@
 ﻿using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
 using Microsoft.AspNetCore.Mvc;
+using PagedList;
 
 namespace MovieShop.WebMVC.Controllers
 {
 	public class MoviesController : Controller
 	{
-		private readonly IMovieService _movieService;
-		public MoviesController(IMovieService movieService)
+		private readonly IMovieServiceAsync _movieService;
+		public MoviesController(IMovieServiceAsync movieService)
 		{
 			_movieService = movieService;
 		}
 		[HttpGet]
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
-			var result = _movieService.GetAllMovies();
+			var result = await _movieService.GetAllMoviesAsync();
 			return View(result);
 		}
-		public IActionResult HighGrossMovies()
+		public async Task<IActionResult> HighGrossMovies()
 		{
-			var result = _movieService.GetHighGrossingMovies();
+			var result = await _movieService.GetHighGrossingMoviesAsync();
 			return View(result);
 		}
 		[HttpGet]
-		public IActionResult Create()
+		public async Task<IActionResult> Create()
 		{
 			return View();
 		}
 		[HttpGet]
-		public IActionResult Details(int id)
+		public async Task<IActionResult> Details(int id)
 		{
-			var result = _movieService.GetMovieDetails(id);
+			var result = await _movieService.GetMovieDetailsAsync(id);
+			return View(result);
+		}
+		public async Task<IActionResult> MoviesByGenre(int id, int pageSize=30,int pageNumber=1)
+		{
+			var result = await _movieService.GetMoviesByGenreAsync(id,pageSize,pageNumber);
 			return View(result);
 		}
 	}

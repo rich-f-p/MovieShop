@@ -6,8 +6,8 @@ namespace MovieShop.WebMVC.Controllers
 {
 	public class UserController : Controller
 	{
-		private readonly IUserService _userService;
-		public UserController(IUserService userService)
+		private readonly IUserServiceAsync _userService;
+		public UserController(IUserServiceAsync userService)
 		{
 			_userService = userService;
 		}
@@ -30,11 +30,11 @@ namespace MovieShop.WebMVC.Controllers
 			return View();
 		}
         [HttpPost]
-		public IActionResult Register(User user)
+		public async Task<IActionResult> Register(User user)
 		{
 			if (ModelState.IsValid)
 			{
-				_userService.AddUser(user);
+				await _userService.AddUserAsync(user);
 				return RedirectToAction("Index");
 			}
 			return View(user);

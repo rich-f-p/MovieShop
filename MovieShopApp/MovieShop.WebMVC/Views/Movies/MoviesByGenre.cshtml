@@ -1,0 +1,13 @@
+﻿@model ApplicationCore.Models.PaginatedResultSet<ApplicationCore.Models.MovieCardModel>
+@{
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <partial name="_MovieCardModel", model="@item" />
+        }
+    </div>
+    <partial name="_PagingButtons", model="@Model" />
+</div>

@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Contracts.Repository
 {
-	public interface IMovieRepository : IRepository<Movie>
+	public interface IUserRepositoryAsync : IRepositoryAsync<User>
 	{
-		IEnumerable<Movie> GetHighestGrossingMovies();
-		Movie GetMovieById(int id);
 	}
 }

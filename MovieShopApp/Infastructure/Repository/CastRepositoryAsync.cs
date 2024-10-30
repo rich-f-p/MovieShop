@@ -11,19 +11,19 @@ using System.Threading.Tasks;
 
 namespace Infastructure.Repository
 {
-	public class CastRepository : BaseRepository<Cast>, ICastRepository
+	public class CastRepositoryAsync : BaseRepositoryAsync<Cast>, ICastRepositoryAsync
 	{
 		private readonly MovieShopDbContext _context;
-		public CastRepository(MovieShopDbContext c) : base(c)
+		public CastRepositoryAsync(MovieShopDbContext c) : base(c)
 		{
 			_context = c;
 		}
-		public override Cast GetById(int id)
+		public override async Task<Cast> GetByIdAsync(int id)
 		{
-			return _context.Casts
+			return await _context.Casts
 				.Include(c => c.MovieCasts)
 				.ThenInclude(mc => mc.Movies)
-				.FirstOrDefault(c=>c.Id==id);
+				.FirstOrDefaultAsync(c=>c.Id==id);
 		}
 	}
 }

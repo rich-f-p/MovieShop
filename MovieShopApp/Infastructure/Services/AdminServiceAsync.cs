@@ -8,29 +8,29 @@ using System.Threading.Tasks;
 
 namespace Infastructure.Services
 {
-    public class AccountService : IAccountService
+    public class AdminServiceAsync : IAdminServiceAsync
     {
-        public int AddAccount(User user)
+        public Task<int> AddAdminAsync(User user)
         {
             throw new NotImplementedException();
         }
 
-        public int DeleteAccount(int id)
+        public Task<int> DeleteAdminAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public User GetAccountById(int id)
+        public Task<User> GetAdminByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<User> GetAllAccounts()
+        public Task<IEnumerable<User>> GetAllAdminsAsync()
         {
             throw new NotImplementedException();
         }
 
-        public int UpdateAccount(User user, int id)
+        public Task<int> UpdateAdminAsync(User user, int id)
         {
             throw new NotImplementedException();
         }

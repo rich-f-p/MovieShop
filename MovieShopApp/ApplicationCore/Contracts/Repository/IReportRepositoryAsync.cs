@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Contracts.Repository
 {
-	public interface IRepository<T> where T : class
+	public interface IReportRepositoryAsync
 	{
-		T GetById(int id);
-		IEnumerable<T> GetAll();
-		int Insert(T entity);
-		int Update(T entity);
-		int Delete(int id);
 	}
 }
