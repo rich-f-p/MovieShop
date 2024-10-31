@@ -14,10 +14,10 @@ variables:
   buildConfiguration: 'Release'
   
 steps:
-- task: DotNetCoreCLI@2
+- task: NuGetCommand@2
   inputs:
-    azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
     command: 'restore'
+    restoreSolution: '**/*.sln'
     feedsToUse: 'select'
     vstsFeed: 'cf3a5b7c-c563-48e7-a8c9-146f1484b017'
 
