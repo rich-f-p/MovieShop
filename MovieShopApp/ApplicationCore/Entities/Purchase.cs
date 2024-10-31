@@ -21,7 +21,7 @@ namespace ApplicationCore.Entities
 		public int UserId { get; set; }
 		[Required]
 		[Column(TypeName = "datetime2")]
-		[PurchaseDateValidation(ErrorMessage ="Date range has been exceeded!")]
+		[PurchaseDateValidation]
 		public DateTime PurchaseDateTime { get; set; }
 		[Required]
 		public string PurchaseNumber { get; set; }
