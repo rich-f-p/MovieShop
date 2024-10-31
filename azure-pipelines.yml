@@ -42,10 +42,11 @@ steps:
     publishWebProjects: True
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: True
+
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1(9b611e84-30b2-47a4-81db-80e47456270c)'
+    azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
     appType: 'webApp'
     WebAppName: 'rrferry3MovieShop'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
