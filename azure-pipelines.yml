@@ -6,6 +6,7 @@
 trigger:
 - main
 
+
 pool:
   name: Default 
   vmImage: windows-latest
@@ -14,5 +15,29 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'cf3a5b7c-c563-48e7-a8c9-146f1484b017'
+
 - script: dotnet build MovieShopApp/MovieShopApp.sln --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
+    command: 'test'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
