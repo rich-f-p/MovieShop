@@ -49,4 +49,4 @@ steps:
     azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
     appType: 'webApp'
     WebAppName: 'rrferry3MovieShop'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '"C:\agent\_work\1\a\MovieShop.WebMVC.zip"'
