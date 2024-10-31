@@ -23,7 +23,13 @@ steps:
 
 - script: dotnet build MovieShopApp/MovieShopApp.sln --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
-
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
+    appType: 'webApp'
+    WebAppName: 'rrferry3MovieShop'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'publish'
