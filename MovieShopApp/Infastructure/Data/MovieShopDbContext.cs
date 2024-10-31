@@ -33,6 +33,24 @@ namespace Infastructure.Data
 			modelBuilder.Entity<Movie>()
 				.Property(b => b.UpdatedDate)
 				.HasDefaultValueSql("getdate()");
+			modelBuilder.Entity<Movie>()
+				.Property(b => b.Price)
+				.HasDefaultValue(Convert.ToDecimal(5));
+			modelBuilder.Entity<Movie>()
+				.Property(b => b.UpdatedBy)
+				.HasDefaultValue("DataAdmin");
+			modelBuilder.Entity<Movie>()
+				.Property(b => b.CreatedDate)
+				.HasDefaultValueSql("getdate()");
+			modelBuilder.Entity<Movie>()
+				.Property(b => b.CreatedBy)
+				.HasDefaultValue("DataAdmin");
+			modelBuilder.Entity<User>()
+				.Property(u => u.Salt)
+				.HasDefaultValue("salt");
+			modelBuilder.Entity<User>()
+				.Property(u => u.IsLocked)
+				.HasDefaultValue(0);
 		}
 	}
 }

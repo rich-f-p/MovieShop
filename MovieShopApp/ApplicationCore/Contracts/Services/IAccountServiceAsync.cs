@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace ApplicationCore.Contracts.Services
 {
 	public interface IAccountServiceAsync
 	{
-        Task<int> AddAccountAsync(User user);
+        Task<int> AddAccountAsync(RegisterModel user);
         Task<int> UpdateAccountAsync(User user, int id);
         Task<int> DeleteAccountAsync(int id);
         Task<IEnumerable<User>> GetAllAccountsAsync();

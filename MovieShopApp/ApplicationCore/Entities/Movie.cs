@@ -22,7 +22,7 @@ namespace ApplicationCore.Entities
 		public string? CreatedBy { get; set; }
 		[Column(TypeName = "datetime2")]
 		public DateTime? CreatedDate { get; set; }
-		[Column(TypeName = "nvarchar(2084)")]
+        [Column(TypeName = "nvarchar(2084)")]
 		public string? ImdbUrl {  get; set; }
 		[Column(TypeName = "nvarchar(64)")]
 		public string? OriginalLanguage { get; set; }

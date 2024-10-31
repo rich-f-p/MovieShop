@@ -1,6 +1,8 @@
 ﻿using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace MovieShop.WebMVC.Controllers
 {
@@ -23,20 +25,6 @@ namespace MovieShop.WebMVC.Controllers
 		public IActionResult Login(User user)
 		{
 
-			return View(user);
-		}
-		public IActionResult Register()
-		{
-			return View();
-		}
-        [HttpPost]
-		public async Task<IActionResult> Register(User user)
-		{
-			if (ModelState.IsValid)
-			{
-				await _userService.AddUserAsync(user);
-				return RedirectToAction("Index");
-			}
 			return View(user);
 		}
 	}

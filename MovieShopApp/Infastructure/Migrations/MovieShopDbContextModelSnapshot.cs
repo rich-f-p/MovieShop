@@ -98,10 +98,14 @@ namespace Infastructure.Migrations
                         .HasColumnType("decimal(18,4)");
 
                     b.Property<string>("CreatedBy")
-                        .HasColumnType("nvarchar(MAX)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(MAX)")
+                        .HasDefaultValue("DataAdmin");
 
                     b.Property<DateTime?>("CreatedDate")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("getdate()");
 
                     b.Property<string>("ImdbUrl")
                         .HasColumnType("nvarchar(2084)");
@@ -116,7 +120,9 @@ namespace Infastructure.Migrations
                         .HasColumnType("nvarchar(2084)");
 
                     b.Property<decimal?>("Price")
-                        .HasColumnType("decimal(5,2)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("decimal(5,2)")
+                        .HasDefaultValue(5m);
 
                     b.Property<DateTime?>("ReleaseDate")
                         .HasColumnType("datetime2");
@@ -137,7 +143,9 @@ namespace Infastructure.Migrations
                         .HasColumnType("nvarchar(2084)");
 
                     b.Property<string>("UpdatedBy")
-                        .HasColumnType("nvarchar(MAX)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(MAX)")
+                        .HasDefaultValue("DataAdmin");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .ValueGeneratedOnAdd()
@@ -303,7 +311,9 @@ namespace Infastructure.Migrations
                         .HasColumnType("nvarchar(1024)");
 
                     b.Property<int?>("IsLocked")
-                        .HasColumnType("int");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -317,7 +327,9 @@ namespace Infastructure.Migrations
 
                     b.Property<string>("Salt")
                         .IsRequired()
-                        .HasColumnType("nvarchar(1024)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(1024)")
+                        .HasDefaultValue("salt");
 
                     b.HasKey("Id");
 

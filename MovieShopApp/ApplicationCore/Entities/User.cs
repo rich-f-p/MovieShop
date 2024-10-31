@@ -33,7 +33,7 @@ namespace ApplicationCore.Entities
 		public string? ProfilePictureUrl { get; set; }
 		[Required]
 		[Column(TypeName = "nvarchar(1024)")]
-		public string? Salt { get; set; }
+		public string? Salt { get; set; } = "salt";
 
 		public ICollection<Favorite> Favorites { get; set; }
 		public ICollection<Purchase> Purchases { get; set; }

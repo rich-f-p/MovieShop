@@ -1,0 +1,60 @@
+﻿@model ApplicationCore.Models.AddMovieModel
+@{
+	ViewData["for"] = "([TmdbUrl], [Title], [OverView]???, [Tagline], [Runtime]???, [Budget], [Revenue], [BackdropUrl], [PosterUrl], [ImdbUrl], [OriginalLanguage], [ReleaseDate])";
+}
+<h1>Create A New Movie</h1>
+<form asp-action="CreateMovie" method="post" asp-controller="Admin">
+	<div class="container">
+		<div class="my-3">
+			<label for="Title">Title</label>
+			<input type="text" asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+
+			<label for="TmdbUrl">TmdbUrl</label>
+			<input type="text" asp-for="TmdbUrl" class="form-control" />
+			<span asp-validation-for="TmdbUrl" class="text-danger"></span>
+
+			<label for="OverView">Overview</label>
+			<input type="text" asp-for="Overview" class="form-control" />
+			<span asp-validation-for="Overview" class="text-danger"></span>
+
+			<label for="Taglin">Tagline</label>
+			<input type="text" asp-for="Tagline" class="form-control" />
+			<span asp-validation-for="Tagline" class="text-danger"></span>
+
+			<label for="Runtime">Runtime</label>
+			<input type="text" asp-for="RunTime" class="form-control" />
+			<span asp-validation-for="RunTime" class="text-danger"></span>
+
+			<label for="Budget">Budget</label>
+			<input type="text" asp-for="Budget" class="form-control" />
+			<span asp-validation-for="Budget" class="text-danger"></span>
+
+			<label for="Revenue">Revenue</label>
+			<input type="text" asp-for="Revenue" class="form-control" />
+			<span asp-validation-for="Revenue" class="text-danger"></span>
+
+			<label for="BackdropUrl">BackdropUrl</label>
+			<input type="text" asp-for="BackdropUrl" class="form-control" />
+			<span asp-validation-for="BackdropUrl" class="text-danger"></span>
+
+			<label for="PosterUrl">PosterUrl</label>
+			<input type="text" asp-for="PosterUrl" class="form-control" />
+			<span asp-validation-for="PosterUrl" class="text-danger"></span>
+
+			<label for="ImdbUrl">ImdbUrl</label>
+			<input type="text" asp-for="ImdbUrl" class="form-control" />
+			<span asp-validation-for="ImdbUrl" class="text-danger"></span>
+
+			<label for="OriginalLanguage">OriginalLanguage</label>
+			<input type="text" asp-for="OriginalLanguage" class="form-control" />
+			<span asp-validation-for="OriginalLanguage" class="text-danger"></span>
+
+			<label for="ReleaseDate">ReleaseDate</label>
+			<input type="date" asp-for="ReleaseDate" class="form-control" />
+			<span asp-validation-for="ReleaseDate" class="text-danger"></span>
+		</div>
+		<button class="btn btn-dark">Create</button>
+	</div>
+</form>
+

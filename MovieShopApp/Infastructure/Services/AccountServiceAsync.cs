@@ -1,5 +1,8 @@
-﻿using ApplicationCore.Contracts.Services;
+﻿using ApplicationCore.Contracts.Repository;
+using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +13,26 @@ namespace Infastructure.Services
 {
     public class AccountServiceAsync : IAccountServiceAsync
     {
-        public async Task<int> AddAccountAsync(User user)
+        private readonly IUserRepositoryAsync _repo;
+        public AccountServiceAsync(IUserRepositoryAsync repo)
         {
-            throw new NotImplementedException();
+            _repo = repo;
+        }
+        public async Task<int> AddAccountAsync(RegisterModel model)
+        {
+            var result = new User
+            {
+                FirstName= model.FirstName,
+                LastName= model.LastName,
+                DateOfBirth = model.DateOfBirth,
+                Email = model.Email,
+                HashedPassword = model.HashedPassword,
+            };
+            if(model.ConfirmPassword == result.HashedPassword)
+            {
+                return await _repo.InsertAsync(result);
+            }
+            return -1;
         }
 
         public async Task<int> DeleteAccountAsync(int id)
