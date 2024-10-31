@@ -6,7 +6,9 @@
 trigger:
 - main
 
-pool: Default
+pool:
+  name: Default 
+  vmImage: windows-latest
 
 variables:
   buildConfiguration: 'Release'
