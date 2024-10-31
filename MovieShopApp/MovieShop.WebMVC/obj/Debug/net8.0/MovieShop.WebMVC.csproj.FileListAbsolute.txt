@@ -419,4 +419,3 @@ C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bi
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\Serilog.Sinks.File.dll
-C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShopApp\MovieShop.WebMVC\bin\Debug\net8.0\Log\Exception&Filter20241031.json

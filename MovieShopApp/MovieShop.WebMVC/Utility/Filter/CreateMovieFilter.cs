@@ -18,7 +18,7 @@ namespace MovieShop.WebMVC.Utility.Filter
                 context.Result = new BadRequestObjectResult(context.ModelState);
             }
             var resultContext = await next();
-            _logger.LogInformation(resultContext.ToString());
+            _logger.LogInformation(resultContext.ToString()+"\n"+context.ToString());
         }
     }
 }

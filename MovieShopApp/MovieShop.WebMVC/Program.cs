@@ -15,7 +15,10 @@ builder.Services.AddControllersWithViews();
 
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.File("Log/Exception&Filter.json"
 	,outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
-	,shared:true,rollingInterval:RollingInterval.Day).CreateLogger();
+	,shared:true,rollingInterval:RollingInterval.Day)
+	.MinimumLevel.Information().WriteTo.File("Log/Exception&Filter.json"
+	, outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+	, shared: true, rollingInterval: RollingInterval.Day).CreateLogger();
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<MovieShopDbContext>(options =>
