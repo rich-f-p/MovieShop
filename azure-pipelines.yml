@@ -14,39 +14,36 @@ variables:
   buildConfiguration: 'Release'
   
 steps:
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/*.sln'
-    feedsToUse: 'select'
-    vstsFeed: 'cf3a5b7c-c563-48e7-a8c9-146f1484b017'
+  - task: UseDotNet@2
+    displayName: 'Install .NET Core SDK'
+    inputs:
+      version: '8.x'
 
-- script: dotnet build MovieShopApp/MovieShopApp.sln --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+  - task: DotNetCoreCLI@2
+    displayName: 'Restore Dependencies'
+    inputs:
+      command: 'restore'
+      projects: '**/*.csproj'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: publish
-    publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: True
+  - task: DotNetCoreCLI@2
+    displayName: 'Build Project'
+    inputs:
+      command: 'build'
+      projects: '**/*.csproj'
+      arguments: '--configuration Release'
 
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'myWebsite'
+  - task: DotNetCoreCLI@2
+    displayName: 'Publish Project'
+    inputs:
+      command: 'publish'
+      projects: '**/*.csproj'
+      publishWebProjects: true
+      arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
+      zipAfterPublish: true
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: publish
-    publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: True
-
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1 (9b611e84-30b2-47a4-81db-80e47456270c)'
-    appType: 'webApp'
-    WebAppName: 'rrferry3MovieShop'
-    packageForLinux: '"C:\agent\_work\1\a\MovieShop.WebMVC.zip"'
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish Artifact'
+    inputs:
+      targetPath: '$(Build.ArtifactStagingDirectory)'
+      artifactName: 'WebArtifact-$(Build.BuildNumber)'
+      publishLocation: 'pipeline'
