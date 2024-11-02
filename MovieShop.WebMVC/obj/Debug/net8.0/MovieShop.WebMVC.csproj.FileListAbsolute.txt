@@ -694,3 +694,5 @@ C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.0\MovieShop.WebMVC.pdb
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.0\MovieShop.WebMVC.genruntimeconfig.cache
 C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.0\ref\MovieShop.WebMVC.dll
+C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\bin\Debug\net8.0\Log\Exception&Filter20241101.json
+C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\bin\Debug\net8.0\Log\Exception&Filter20241102.json

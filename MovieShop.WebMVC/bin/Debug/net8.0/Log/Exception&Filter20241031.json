@@ -134,3 +134,121 @@ FROM [Genres] AS [g]
 2024-10-31 21:10:57.022 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 2.2346ms
 2024-10-31 21:10:57.022 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 1.7586ms
 2024-10-31 21:10:57.022 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 1.7586ms
+2024-10-31 21:12:39.693 -04:00 [INF] User profile is available. Using 'C:\Users\richa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-31 21:12:39.693 -04:00 [INF] User profile is available. Using 'C:\Users\richa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-31 21:12:39.890 -04:00 [INF] Now listening on: http://localhost:5014
+2024-10-31 21:12:39.890 -04:00 [INF] Now listening on: http://localhost:5014
+2024-10-31 21:12:39.914 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-31 21:12:39.914 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-31 21:12:39.915 -04:00 [INF] Hosting environment: Development
+2024-10-31 21:12:39.915 -04:00 [INF] Hosting environment: Development
+2024-10-31 21:12:39.915 -04:00 [INF] Content root path: C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC
+2024-10-31 21:12:39.915 -04:00 [INF] Content root path: C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC
+2024-10-31 21:12:40.524 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/ - null null
+2024-10-31 21:12:40.524 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/ - null null
+2024-10-31 21:12:40.647 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-10-31 21:12:40.647 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-10-31 21:12:40.708 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MovieShop.WebMVC.Controllers.HomeController (MovieShop.WebMVC).
+2024-10-31 21:12:40.708 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MovieShop.WebMVC.Controllers.HomeController (MovieShop.WebMVC).
+2024-10-31 21:12:41.886 -04:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+2024-10-31 21:12:41.886 -04:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+2024-10-31 21:12:42.581 -04:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 21:12:42.581 -04:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 21:12:43.082 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:43.082 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:43.157 -04:00 [INF] Executed ViewResult - view Index executed in 577.2988ms.
+2024-10-31 21:12:43.157 -04:00 [INF] Executed ViewResult - view Index executed in 577.2988ms.
+2024-10-31 21:12:43.159 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC) in 2450.7394ms
+2024-10-31 21:12:43.159 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC) in 2450.7394ms
+2024-10-31 21:12:43.160 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-10-31 21:12:43.160 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-10-31 21:12:43.174 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/ - 200 null text/html; charset=utf-8 2655.322ms
+2024-10-31 21:12:43.174 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/ - 200 null text/html; charset=utf-8 2655.322ms
+2024-10-31 21:12:44.474 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:44.474 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:44.477 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.9236ms
+2024-10-31 21:12:44.477 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.9236ms
+2024-10-31 21:12:49.201 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/1 - null null
+2024-10-31 21:12:49.202 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/12 - null null
+2024-10-31 21:12:49.201 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/1 - null null
+2024-10-31 21:12:49.202 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/12 - null null
+2024-10-31 21:12:49.204 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:49.204 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:49.207 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/12 - 404 0 null 4.9885ms
+2024-10-31 21:12:49.207 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/12 - 404 0 null 4.9885ms
+2024-10-31 21:12:49.207 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5014/12, Response status code: 404
+2024-10-31 21:12:49.207 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5014/12, Response status code: 404
+2024-10-31 21:12:49.207 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/1 - 404 0 null 5.1648ms
+2024-10-31 21:12:49.207 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/1 - 404 0 null 5.1648ms
+2024-10-31 21:12:49.209 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5014/1, Response status code: 404
+2024-10-31 21:12:49.209 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5014/1, Response status code: 404
+2024-10-31 21:12:49.277 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.1335ms
+2024-10-31 21:12:49.277 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.1335ms
+2024-10-31 21:12:50.176 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/Account/Register - null null
+2024-10-31 21:12:50.176 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/Account/Register - null null
+2024-10-31 21:12:50.182 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC)'
+2024-10-31 21:12:50.182 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC)'
+2024-10-31 21:12:50.184 -04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller MovieShop.WebMVC.Controllers.AccountController (MovieShop.WebMVC).
+2024-10-31 21:12:50.184 -04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller MovieShop.WebMVC.Controllers.AccountController (MovieShop.WebMVC).
+2024-10-31 21:12:50.186 -04:00 [INF] Executing ViewResult, running view Register.
+2024-10-31 21:12:50.186 -04:00 [INF] Executing ViewResult, running view Register.
+2024-10-31 21:12:50.303 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:50.303 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:50.309 -04:00 [INF] Executed ViewResult - view Register executed in 123.2867ms.
+2024-10-31 21:12:50.309 -04:00 [INF] Executed ViewResult - view Register executed in 123.2867ms.
+2024-10-31 21:12:50.309 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC) in 125.1981ms
+2024-10-31 21:12:50.309 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC) in 125.1981ms
+2024-10-31 21:12:50.309 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC)'
+2024-10-31 21:12:50.309 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.AccountController.Register (MovieShop.WebMVC)'
+2024-10-31 21:12:50.309 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/Account/Register - 200 null text/html; charset=utf-8 133.7105ms
+2024-10-31 21:12:50.309 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/Account/Register - 200 null text/html; charset=utf-8 133.7105ms
+2024-10-31 21:12:50.336 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:50.336 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:50.343 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5759ms
+2024-10-31 21:12:50.343 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5759ms
+2024-10-31 21:12:50.347 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:50.347 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:50.347 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.3641ms
+2024-10-31 21:12:50.347 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.3641ms
+2024-10-31 21:12:51.602 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/User/Login - null null
+2024-10-31 21:12:51.602 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/User/Login - null null
+2024-10-31 21:12:51.607 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC)'
+2024-10-31 21:12:51.607 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC)'
+2024-10-31 21:12:51.619 -04:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller MovieShop.WebMVC.Controllers.UserController (MovieShop.WebMVC).
+2024-10-31 21:12:51.619 -04:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller MovieShop.WebMVC.Controllers.UserController (MovieShop.WebMVC).
+2024-10-31 21:12:51.621 -04:00 [INF] Executing ViewResult, running view Login.
+2024-10-31 21:12:51.621 -04:00 [INF] Executing ViewResult, running view Login.
+2024-10-31 21:12:51.658 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:51.658 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-31 21:12:51.661 -04:00 [INF] Executed ViewResult - view Login executed in 40.5772ms.
+2024-10-31 21:12:51.661 -04:00 [INF] Executed ViewResult - view Login executed in 40.5772ms.
+2024-10-31 21:12:51.661 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC) in 42.0506ms
+2024-10-31 21:12:51.661 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC) in 42.0506ms
+2024-10-31 21:12:51.661 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC)'
+2024-10-31 21:12:51.661 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.UserController.Login (MovieShop.WebMVC)'
+2024-10-31 21:12:51.662 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/User/Login - 200 null text/html; charset=utf-8 59.8798ms
+2024-10-31 21:12:51.662 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/User/Login - 200 null text/html; charset=utf-8 59.8798ms
+2024-10-31 21:12:51.679 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:51.679 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_vs/browserLink - null null
+2024-10-31 21:12:51.679 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:51.679 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-31 21:12:51.679 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.3625ms
+2024-10-31 21:12:51.679 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.3625ms
+2024-10-31 21:12:51.689 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3724ms
+2024-10-31 21:12:51.689 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3724ms

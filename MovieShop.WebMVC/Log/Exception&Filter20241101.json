@@ -1,0 +1,78 @@
+2024-11-01 10:51:53.601 -04:00 [INF] User profile is available. Using 'C:\Users\richa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-01 10:51:53.601 -04:00 [INF] User profile is available. Using 'C:\Users\richa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-01 10:51:53.808 -04:00 [INF] Now listening on: http://localhost:5014
+2024-11-01 10:51:53.808 -04:00 [INF] Now listening on: http://localhost:5014
+2024-11-01 10:51:53.845 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-01 10:51:53.845 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-01 10:51:53.846 -04:00 [INF] Hosting environment: Development
+2024-11-01 10:51:53.846 -04:00 [INF] Hosting environment: Development
+2024-11-01 10:51:53.846 -04:00 [INF] Content root path: C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC
+2024-11-01 10:51:53.846 -04:00 [INF] Content root path: C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC
+2024-11-01 10:51:56.298 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/ - null null
+2024-11-01 10:51:56.298 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/ - null null
+2024-11-01 10:51:56.479 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-11-01 10:51:56.479 -04:00 [INF] Executing endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-11-01 10:51:56.535 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MovieShop.WebMVC.Controllers.HomeController (MovieShop.WebMVC).
+2024-11-01 10:51:56.535 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MovieShop.WebMVC.Controllers.HomeController (MovieShop.WebMVC).
+2024-11-01 10:51:57.954 -04:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+2024-11-01 10:51:57.954 -04:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+2024-11-01 10:51:58.660 -04:00 [INF] Executing ViewResult, running view Index.
+2024-11-01 10:51:58.660 -04:00 [INF] Executing ViewResult, running view Index.
+2024-11-01 10:51:59.154 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-11-01 10:51:59.154 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/MovieShop.WebMVC.styles.css?v=IjoWzqCXFtDoWThRiVw6bm_cchSg5yw0iOfacJJQbpg - null null
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/MovieShop.WebMVC.styles.css?v=IjoWzqCXFtDoWThRiVw6bm_cchSg5yw0iOfacJJQbpg - null null
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-11-01 10:51:59.233 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-11-01 10:51:59.254 -04:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\wwwroot\css\site.css'
+2024-11-01 10:51:59.254 -04:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\wwwroot\css\site.css'
+2024-11-01 10:51:59.254 -04:00 [INF] Sending file. Request path: '/MovieShop.WebMVC.styles.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.0\scopedcss\bundle\MovieShop.WebMVC.styles.css'
+2024-11-01 10:51:59.254 -04:00 [INF] Sending file. Request path: '/MovieShop.WebMVC.styles.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\obj\Debug\net8.0\scopedcss\bundle\MovieShop.WebMVC.styles.css'
+2024-11-01 10:51:59.256 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/MovieShop.WebMVC.styles.css?v=IjoWzqCXFtDoWThRiVw6bm_cchSg5yw0iOfacJJQbpg - 200 1134 text/css 22.3694ms
+2024-11-01 10:51:59.256 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/MovieShop.WebMVC.styles.css?v=IjoWzqCXFtDoWThRiVw6bm_cchSg5yw0iOfacJJQbpg - 200 1134 text/css 22.3694ms
+2024-11-01 10:51:59.257 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 22.5101ms
+2024-11-01 10:51:59.257 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 22.5101ms
+2024-11-01 10:51:59.267 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-11-01 10:51:59.267 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\richa\Desktop\SEP Full Stack\MovieShop\MovieShop.WebMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-11-01 10:51:59.268 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 35.4243ms
+2024-11-01 10:51:59.268 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 35.4243ms
+2024-11-01 10:51:59.270 -04:00 [INF] Executed ViewResult - view Index executed in 616.3248ms.
+2024-11-01 10:51:59.270 -04:00 [INF] Executed ViewResult - view Index executed in 616.3248ms.
+2024-11-01 10:51:59.273 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC) in 2737.4254ms
+2024-11-01 10:51:59.273 -04:00 [INF] Executed action MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC) in 2737.4254ms
+2024-11-01 10:51:59.274 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-11-01 10:51:59.274 -04:00 [INF] Executed endpoint 'MovieShop.WebMVC.Controllers.HomeController.Index (MovieShop.WebMVC)'
+2024-11-01 10:51:59.287 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/ - 200 null text/html; charset=utf-8 2994.7086ms
+2024-11-01 10:51:59.287 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/ - 200 null text/html; charset=utf-8 2994.7086ms
+2024-11-01 10:52:00.263 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-01 10:52:00.263 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-01 10:52:00.266 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.3343ms
+2024-11-01 10:52:00.266 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.3343ms
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/jquery/dist/jquery.min.js - null null
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/lib/jquery/dist/jquery.min.js - null null
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-01 10:52:00.311 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-01 10:52:00.315 -04:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-01 10:52:00.315 -04:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-01 10:52:00.315 -04:00 [INF] The file /js/site.js was not modified
+2024-11-01 10:52:00.315 -04:00 [INF] The file /js/site.js was not modified
+2024-11-01 10:52:00.315 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-01 10:52:00.315 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/jquery/dist/jquery.min.js - 304 null text/javascript 4.5105ms
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/jquery/dist/jquery.min.js - 304 null text/javascript 4.5105ms
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 4.7712ms
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 4.7712ms
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 4.7441ms
+2024-11-01 10:52:00.316 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5014/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 4.7441ms

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:07:35.798Z",
+              "EditorCaption": ""
             }
           ]
         }
