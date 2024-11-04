@@ -3,16 +3,168 @@
   "WorkspaceRootPath": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\sessionstorage\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\sessionstorage\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\sessionstorage\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\sessionstorage\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\sessionstorage\\index6model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\sessionstorage\\index6model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\services\\userserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\services\\userserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\services\\iuserserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\iuserserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\services\\imovieserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\repository\\iuserrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repository\\iuserrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\shared\\_moviecardmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\shared\\_moviecardmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\utility\\filter\\createmoviefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\utility\\filter\\createmoviefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\repository\\ipurchaserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repository\\ipurchaserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\purchaserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\purchaserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\userrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\userrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\services\\movieserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\services\\movieserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\movierepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\movierepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\reportrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\reportrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\repository\\icastrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repository\\icastrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\repository\\irepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repository\\irepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\services\\accountserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\services\\accountserviceasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\migrations\\20241028225918_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\migrations\\20241028225918_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\contracts\\repository\\imovierepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repository\\imovierepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\castrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\castrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\genrerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\genrerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\applicationcore\\validator\\purchasedatevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA0456-93B3-4641-9708-C0E6605ED468}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\validator\\purchasedatevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\movieshop.webmvc\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5862AEB6-0876-4005-B2F7-51E6ED534659}|MovieShop.WebMVC\\MovieShop.WebMVC.csproj|solutionrelative:movieshop.webmvc\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|c:\\users\\richa\\desktop\\sep full stack\\movieshop\\infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB0FE001-F8DB-46A0-AACD-7D2897089645}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\repository\\baserepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +182,514 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Infastructure",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Infastructure.csproj",
+              "RelativeDocumentMoniker": "Infastructure\\Infastructure.csproj",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Infastructure.csproj",
+              "RelativeToolTip": "Infastructure\\Infastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T18:32:43.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IUserRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repository\\IUserRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IUserRepositoryAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repository\\IUserRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:05:41.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:55:49.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMovieServiceAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieServiceAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieServiceAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieServiceAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieServiceAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:41:05.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Entities\\Purchase.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Purchase.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Entities\\Purchase.cs",
+              "RelativeToolTip": "ApplicationCore\\Entities\\Purchase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:07:32.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserServiceAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Services\\IUserServiceAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IUserServiceAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Services\\IUserServiceAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IUserServiceAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:53:47.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserServiceAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\UserServiceAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Services\\UserServiceAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\UserServiceAsync.cs",
+              "RelativeToolTip": "Infastructure\\Services\\UserServiceAsync.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:53:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ApplicationCore\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:59:13.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexModel.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\IndexModel.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\SessionStorage\\IndexModel.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\IndexModel.cs",
+              "RelativeToolTip": "ApplicationCore\\SessionStorage\\IndexModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:38:58.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\SessionStorage\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\SessionExtensions.cs",
+              "RelativeToolTip": "ApplicationCore\\SessionStorage\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:45:47.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index6Model.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\Index6Model.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\SessionStorage\\Index6Model.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\SessionStorage\\Index6Model.cs",
+              "RelativeToolTip": "ApplicationCore\\SessionStorage\\Index6Model.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:48:08.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationCore.csproj",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+              "RelativeDocumentMoniker": "ApplicationCore\\ApplicationCore.csproj",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+              "RelativeToolTip": "ApplicationCore\\ApplicationCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T05:07:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Program.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:07:55.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_MovieCardModel.cshtml",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_MovieCardModel.cshtml",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\Shared\\_MovieCardModel.cshtml",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_MovieCardModel.cshtml",
+              "RelativeToolTip": "MovieShop.WebMVC\\Views\\Shared\\_MovieCardModel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T18:27:29.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieShop.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T18:26:13.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:55:30.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPurchaseRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IPurchaseRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repository\\IPurchaseRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IPurchaseRepositoryAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repository\\IPurchaseRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:47:53.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "MovieShop.WebMVC\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T08:31:42.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:57:31.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PurchaseRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\PurchaseRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\PurchaseRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\PurchaseRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\PurchaseRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:21:03.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateMovieFilter.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Utility\\Filter\\CreateMovieFilter.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Utility\\Filter\\CreateMovieFilter.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Utility\\Filter\\CreateMovieFilter.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Utility\\Filter\\CreateMovieFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:10:16.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\UserRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\UserRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\UserRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\UserRepositoryAsync.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:47:29.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MovieServiceAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\MovieServiceAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Services\\MovieServiceAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\MovieServiceAsync.cs",
+              "RelativeToolTip": "Infastructure\\Services\\MovieServiceAsync.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:39:51.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "MovieShop.WebMVC\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:56:33.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MovieShop.WebMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T08:31:35.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MovieShop.WebMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MovieShop.WebMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:26:46.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MovieRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\MovieRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\MovieRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\MovieRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\MovieRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:39:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReportRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\ReportRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\ReportRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\ReportRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\ReportRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:49:53.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICastRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\ICastRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repository\\ICastRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\ICastRepositoryAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repository\\ICastRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:13:17.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:07:35.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repository\\IRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IRepositoryAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repository\\IRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:45:09.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountServiceAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\AccountServiceAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Services\\AccountServiceAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Services\\AccountServiceAsync.cs",
+              "RelativeToolTip": "Infastructure\\Services\\AccountServiceAsync.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T22:01:04.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Entities\\User.cs",
+              "RelativeToolTip": "ApplicationCore\\Entities\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:40:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MovieShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Data\\MovieShopDbContext.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Data\\MovieShopDbContext.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Data\\MovieShopDbContext.cs",
+              "RelativeToolTip": "Infastructure\\Data\\MovieShopDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:11:24.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241028225918_Init.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Migrations\\20241028225918_Init.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Migrations\\20241028225918_Init.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Migrations\\20241028225918_Init.cs",
+              "RelativeToolTip": "Infastructure\\Migrations\\20241028225918_Init.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAqwMgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:10:18.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IMovieRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IMovieRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repository\\IMovieRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Contracts\\Repository\\IMovieRepositoryAsync.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repository\\IMovieRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:53:24.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CastRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\CastRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\CastRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\CastRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\CastRepositoryAsync.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:47:11.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GenreRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\GenreRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Repository\\GenreRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\GenreRepositoryAsync.cs",
+              "RelativeToolTip": "Infastructure\\Repository\\GenreRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:50:00.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PurchaseDateValidation.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Validator\\PurchaseDateValidation.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Validator\\PurchaseDateValidation.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\ApplicationCore\\Validator\\PurchaseDateValidation.cs",
+              "RelativeToolTip": "ApplicationCore\\Validator\\PurchaseDateValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:43:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\appsettings.json",
               "RelativeDocumentMoniker": "MovieShop.WebMVC\\appsettings.json",
@@ -38,12 +697,11 @@
               "RelativeToolTip": "MovieShop.WebMVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T21:25:14.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:25:14.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\MovieShop.WebMVC\\Views\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "MovieShop.WebMVC\\Views\\Movies\\Index.cshtml",
@@ -51,21 +709,7 @@
               "RelativeToolTip": "MovieShop.WebMVC\\Views\\Movies\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T21:23:10.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseRepositoryAsync.cs",
-              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
-              "ToolTip": "C:\\Users\\richa\\Desktop\\SEP Full Stack\\MovieShop\\Infastructure\\Repository\\BaseRepositoryAsync.cs",
-              "RelativeToolTip": "Infastructure\\Repository\\BaseRepositoryAsync.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T20:07:35.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:23:10.132Z"
             }
           ]
         }

@@ -9,5 +9,7 @@ namespace ApplicationCore.Contracts.Repository
 {
 	public interface IUserRepositoryAsync : IRepositoryAsync<User>
 	{
-	}
+        Task<User> GetByEmailAsync(string email);
+
+    }
 }

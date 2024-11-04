@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Contracts.Services;
+﻿using ApplicationCore.Contracts.Repository;
+using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
 using Microsoft.AspNetCore.Mvc;
 using PagedList;
@@ -39,5 +40,15 @@ namespace MovieShop.WebMVC.Controllers
 			var result = await _movieService.GetMoviesByGenreAsync(id,pageSize,pageNumber);
 			return View(result);
 		}
-	}
+        [HttpPost]
+        public async Task<IActionResult> Purchase(Purchase purchase)
+        {
+			if (ModelState.IsValid)
+			{
+				//need to test
+				await _movieService.AddPurchaseAsync(purchase);
+			}
+            return View(purchase);
+        }
+    }
 }

@@ -40,6 +40,17 @@ builder.Services.AddScoped<IGenreServiceAsync, GenreServiceAsync>();
 builder.Services.AddScoped<IAdminServiceAsync, AdminServiceAsync>();
 builder.Services.AddScoped<IAccountServiceAsync, AccountServiceAsync>();
 
+builder.Services.AddScoped<IPurchaseRepositoryAsync,PurchaseRepositoryAsync>();
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -52,6 +63,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.UseExceptionMiddleware();
 

@@ -26,7 +26,6 @@ namespace MovieShop.WebMVC.Controllers
             if (user.ConfirmPassword != user.HashedPassword)
             {
                 Console.WriteLine("here");
-                ViewBag.confirm = "visible";
                 return View(user);
             }
             if (ModelState.IsValid)

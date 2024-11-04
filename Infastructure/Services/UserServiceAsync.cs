@@ -1,6 +1,8 @@
 ﻿using ApplicationCore.Contracts.Repository;
 using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,6 +44,11 @@ namespace Infastructure.Services
             {
                 return await _repo.UpdateAsync(user);
             }
+            return 0;
+        }
+        public async Task<int> LoginUserAsync(LoginModel model)
+        {
+            //add login 
             return 0;
         }
     }

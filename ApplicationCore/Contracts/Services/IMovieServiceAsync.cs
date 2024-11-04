@@ -18,5 +18,7 @@ namespace ApplicationCore.Contracts.Services
 		Task<IEnumerable<Movie>> GetHighGrossingMoviesAsync();
 		Task<PaginatedResultSet<MovieCardModel>> GetMoviesByGenreAsync(int id, int pageSize, int page);
 		Task<Movie> GetMovieDetailsAsync(int id);
-	}
+		Task<int> AddPurchaseAsync(Purchase purchase);
+
+    }
 }

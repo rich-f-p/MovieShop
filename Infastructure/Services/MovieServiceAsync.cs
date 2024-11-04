@@ -3,6 +3,7 @@ using ApplicationCore.Contracts.Services;
 using ApplicationCore.Entities;
 using ApplicationCore.Models;
 using Azure;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,12 @@ namespace Infastructure.Services
 	public class MovieServiceAsync : IMovieServiceAsync
 	{
 		private readonly IMovieRepositoryAsync _repo;
-		public MovieServiceAsync(IMovieRepositoryAsync repo)
+		private readonly IPurchaseRepositoryAsync _purchaseRepository;
+		private readonly PurchaseDateValidation validator = new PurchaseDateValidation();
+		public MovieServiceAsync(IMovieRepositoryAsync repo,IPurchaseRepositoryAsync purchase)
 		{
 			_repo = repo;
+			_purchaseRepository = purchase;
 		}
 
 		public async Task<int> AddMovieAsync(Movie movie)
@@ -75,5 +79,18 @@ namespace Infastructure.Services
 			}).ToList();
             return new PaginatedResultSet<MovieCardModel>(result,count,page,pageSize);
 		}
-	}
+        public async Task<int> AddPurchaseAsync(Purchase purchase)
+        {
+			ValidationResult result = validator.Validate(purchase);
+			if (result.IsValid)
+			{
+                return await _purchaseRepository.InsertAsync(purchase);
+			}
+			else
+			{
+				Console.WriteLine(result.ToString("~"));
+			}
+			return 0;
+        }
+    }
 }

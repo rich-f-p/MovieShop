@@ -19,13 +19,13 @@ namespace MovieShop.WebMVC.Controllers
 		}
 		public IActionResult Login()
 		{
-			return View();
+            return View();
 		}
 		[HttpPost]
-		public IActionResult Login(User user)
+		public async Task<IActionResult> Login(LoginModel model)
 		{
-
-			return View(user);
+            //var result = await _userService.LoginAsync(user);
+            return View("../Home/Index");
 		}
 	}
 }
